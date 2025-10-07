@@ -1,14 +1,18 @@
 <script setup lang="ts">
 import HelloWorld from "@/views/HelloWorld.vue";
 import HandingInput from "@/views/HandingInput.vue";
+import AttributeBind from "@/views/AttributeBind.vue";
 </script>
 
 <template>
-  <h1>Hello World</h1>
+  <h1># 01 - 跟 Vue 说 Hello World！</h1>
   <HelloWorld/>
 
-  <h1>Handing Input</h1>
+  <h1># 02 - 这个示例展示了如何通过 v-on 指令处理用户输入</h1>
   <HandingInput/>
+
+  <h1># 03 - 这个示例展示了如何通过 v-bind 指令绑定动态属性</h1>
+  <AttributeBind/>
 </template>
 
 <style scoped></style>
