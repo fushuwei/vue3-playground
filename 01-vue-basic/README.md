@@ -1,21 +1,23 @@
 # 01-vue-basic
 
-This template should help get you started developing with Vue 3 in Vite.
+学习掌握 Vue3 基础知识
 
 ## Project Setup
 
-```sh
+### 安装
+
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 开发
 
-```sh
+```
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### 打包
 
-```sh
+```
 npm run build
 ```
