@@ -9,6 +9,7 @@ const message = ref("红色");
 const messageColor = ref("red");
 
 function changeColor(color: string) {
+  console.log(color);
   if (color === "red") {
     message.value = "绿色";
     messageColor.value = "green";
