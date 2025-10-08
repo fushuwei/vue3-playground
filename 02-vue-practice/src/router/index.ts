@@ -1,8 +1,13 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+import Layout from "@/views/Layout.vue";
+import MarkdownEditor from "@/views/MarkdownEditor.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [],
-})
+  routes: [
+    {path: '/', name: 'layout', component: Layout},
+    {path: '/markdown-editor', name: 'markdownEditor', component: MarkdownEditor},
+  ],
+});
 
-export default router
+export default router;
