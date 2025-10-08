@@ -4,6 +4,7 @@ import HandingInput from "@/views/HandingInput.vue";
 import AttributeBind from "@/views/AttributeBind.vue";
 import ConditionalsAndLoops from "@/views/ConditionalsAndLoops.vue";
 import FormBindings from "@/views/FormBindings.vue";
+import SimpleComponent from "@/views/SimpleComponent.vue";
 </script>
 
 <template>
@@ -21,6 +22,9 @@ import FormBindings from "@/views/FormBindings.vue";
 
   <h1># 05 - 使用 v-model 指令在状态和表单输入之间创建双向绑定</h1>
   <FormBindings/>
+
+  <h1># 06 - 组件的使用方法</h1>
+  <SimpleComponent/>
 </template>
 
 <style scoped></style>
