@@ -5,11 +5,11 @@
 <template>
   <p><strong>当前路由:</strong> {{ $route.fullPath }}</p>
 
-  <h1>
-    <p>
-      <RouterLink to="/markdown-editor">Markdown Editor</RouterLink>
-    </p>
-  </h1>
+  <p>
+    <h1>
+      <RouterLink to="/markdown-editor"># 01 - Markdown Editor</RouterLink>
+    </h1>
+  </p>
 </template>
 
 <style scoped>
