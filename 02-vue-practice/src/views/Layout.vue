@@ -16,6 +16,11 @@
           <RouterLink to="/fetching-data">获取数据</RouterLink>
         </li>
       </p>
+      <p>
+        <li>
+          <RouterLink to="/grid">可复用网格组件 (Grid)</RouterLink>
+        </li>
+      </p>
     </ol>
   </h1>
 </template>
