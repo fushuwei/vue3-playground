@@ -21,6 +21,11 @@
           <RouterLink to="/grid">可复用网格组件 (Grid)</RouterLink>
         </li>
       </p>
+      <p>
+        <li>
+          <RouterLink to="/tree">树状视图</RouterLink>
+        </li>
+      </p>
     </ol>
   </h1>
 </template>
