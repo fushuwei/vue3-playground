@@ -26,6 +26,11 @@
           <RouterLink to="/tree">树状视图</RouterLink>
         </li>
       </p>
+      <p>
+        <li>
+          <RouterLink to="/sql-formatter">SQL 格式化</RouterLink>
+        </li>
+      </p>
     </ol>
   </h1>
 </template>

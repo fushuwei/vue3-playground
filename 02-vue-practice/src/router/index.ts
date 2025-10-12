@@ -5,6 +5,7 @@ import MarkdownEditor from "@/views/MarkdownEditor.vue";
 import FetchingData from "@/views/FetchingData.vue";
 import GridDemo from "@/views/GridDemo.vue";
 import TreeDemo from "@/views/TreeDemo.vue";
+import SqlFormatter from "@/views/SqlFormatter.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,6 +16,7 @@ const router = createRouter({
     {path: '/fetching-data', name: 'fetchingData', component: FetchingData},
     {path: '/grid', name: 'grid', component: GridDemo},
     {path: '/tree', name: 'tree', component: TreeDemo},
+    {path: '/sql-formatter', name: 'sqlFormatter', component: SqlFormatter},
   ],
 });
 
