@@ -82,7 +82,7 @@ importers:
         specifier: ~5.9.0
         version: 5.9.3
       vite:
-        specifier: ^7.1.11
+        specifier: ^7.1.12
         version: 7.1.12(@types/node@22.18.12)(jiti@2.6.1)
       vite-plugin-vue-devtools:
         specifier: ^8.0.3
